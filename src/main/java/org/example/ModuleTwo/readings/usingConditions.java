@@ -49,6 +49,37 @@ public class usingConditions {
             }
         }
 
+        // second example: Speed
+
+        int carSpeed = 60;
+
+        // 1st level "if" condition
+        if (carSpeed >= 0 && carSpeed <= 16) {
+            System.out.println("1st Gear");
+        } else {
+            if (carSpeed >=17 && carSpeed <= 32) {
+                System.out.println("2nd Gear");
+            } else {
+                if (carSpeed >= 33 && carSpeed <= 48) {
+                    System.out.println("3rd Gear");
+                } else {
+                    if (carSpeed >= 49 && carSpeed <= 64) {
+                        System.out.println("4th Gear");
+                    } else {
+                        if (carSpeed >= 65 && carSpeed <= 80) {
+                            System.out.println("5th Gear");
+                        } else {
+                            if (carSpeed > 80) {
+                                System.out.println("Slow down Boss");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Task 3 Checking values
+
 
         
     }
