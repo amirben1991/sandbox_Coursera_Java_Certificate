@@ -78,9 +78,6 @@ public class usingConditions {
             }
         }
 
-        // Task 3 Checking values
-
-
         
     }
 
